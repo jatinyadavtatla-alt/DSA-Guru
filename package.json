@@ -1,0 +1,19 @@
+{
+  "name": "dsaguru",
+  "version": "1.0.0",
+  "description": "DSA Guru - a rude but effective Data Structures & Algorithms chat instructor",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "script.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/genai": "^2.16.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
